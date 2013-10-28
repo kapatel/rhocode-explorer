@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rflex/rflex_driver.h
+rflex/rflex_info.h
+-
+pthread.h
+-
+
+../include/rflex/rflex_info.h
+
+/opt/ros/electric/stacks/rflex/src/rflex_driver.cc
+rflex/rflex_driver.h
+-
+stdio.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+termios.h
+-
+sys/stat.h
+-
+iostream
+-
+unistd.h
+-
+string.h
+-
+fcntl.h
+-
+
